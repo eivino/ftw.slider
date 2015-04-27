@@ -8,6 +8,7 @@ jQuery(function($) {
   $('.enabled #slider-panes').slick({
     fade: true,
     autoplay: true,
+    autoplaySpeed: 9000,
     dots: true
   });
 
