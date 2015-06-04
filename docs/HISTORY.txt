@@ -2,10 +2,21 @@ Changelog
 =========
 
 
-2.1.5 (unreleased)
+2.2.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add Plone 4.3.5 support.
+  [jone]
+
+
+2.2.0 (2015-05-18)
+------------------
+
+- Disable slider dots.
+  [Kevin Bieri]
+
+- Update slick.js to 1.5.5
+  [Kevin Bieri]
 
 
 2.1.4 (2015-02-24)

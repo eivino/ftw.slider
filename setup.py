@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '2.1.5.dev0'
+version = '2.2.1.dev0'
 
 tests_require = [
     'ftw.testing [splinter]',
@@ -27,7 +27,7 @@ setup(name='ftw.slider',
         ],
       keywords='',
 
-      author='4teamwork GmbH',
+      author='4teamwork AG',
       author_email='mailto:info@4teamwork.ch',
       url='https://github.com/4teamwork/ftw.slider',
       license='GPL2',

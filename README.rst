@@ -62,9 +62,9 @@ The `ftw.contentpage` carousel block with default plone:
 Links
 =====
 
-- Github project repository: https://github.com/4teamwork/ftw.slider
-- Issue tracker: https://github.com/4teamwork/ftw.slider/issues
-- Package on pypi: http://pypi.python.org/pypi/ftw.slider
+- Github: https://github.com/4teamwork/ftw.slider
+- Issues: https://github.com/4teamwork/ftw.slider/issues
+- Pypi: http://pypi.python.org/pypi/ftw.slider
 - Continuous integration: https://jenkins.4teamwork.ch/search?q=ftw.slider
 
 
@@ -74,7 +74,3 @@ Copyright
 This package is copyright by `4teamwork <http://www.4teamwork.ch/>`_.
 
 ``ftw.slider`` is licensed under GNU General Public License, version 2.
-
-.. image:: https://cruel-carlota.pagodabox.com/d9c95f38d2ad57caaf293a9072e1f81d
-   :alt: githalytics.com
-   :target: http://githalytics.com/4teamwork/ftw.slider
