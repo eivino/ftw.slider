@@ -9,15 +9,22 @@ $slider-color: contrast($slider-bg-start, #FFF, #000);
   background-color: $slider-bg-start;
 }
 #slider-wrapper .sliderText {
-  @include gradient($slider-bg-start, $slider-bg-end);
-  color: $slider-color;
-  height: 100px;
+  /*@include gradient($slider-bg-start, $slider-bg-end);*/
+  /*background-color: rgba(147, 25, 4, 0.8);*/
+  background-color: rgba($slider-color, 0.8);
+  /*background-color: rgba(0, 0, 0, 0.7);*/
+  color: $slider-bg-end;
+  */color: $slider-color;*/
+  /*height: 100px;*/
   width: 50%;
+  width: 100%;
   position: absolute;
-  right:0;
+  /*right:0;*/
+  left: 0;
   bottom: 0;
-  padding: 1em;
-  margin-bottom: 2em;
+  /*padding: 1em;*/
+  padding: 1em 1em 0 1em;
+  /*margin-bottom: 2em;*/
   overflow: hidden;
   & a {
     color: $slider-color;
@@ -34,7 +41,7 @@ $slider-color: contrast($slider-bg-start, #FFF, #000);
   &:before {
     font-size: 1.75*($font-size);
     vertical-align: middle;
-    color: $link-color;
+    color: $link-color
   }
   &:hover:before {
     color: $link-color-hover;
@@ -46,12 +53,16 @@ $slider-color: contrast($slider-bg-start, #FFF, #000);
 @media screen and (max-width: $screen-tablet) {
 
     #slider-panes {
-      background: $slider-bg-end;
+      background: $slider-bg-start;
+      /*background: rgba(0, 0, 0, 1);*/
+      /*background: transparent;*/
     }
     #container #slider-wrapper .sliderText {
+      background-color: $slider-bg-start;
       position: relative;
       width: 96%;
       padding: 2%;
+      color: #fff;
     }
 
 }
