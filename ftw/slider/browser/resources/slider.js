@@ -8,7 +8,7 @@ jQuery(function($) {
   $('.enabled #slider-panes').slick({
     fade: true,
     autoplay: true,
-    autoplaySpeed: 9000,
+    autoplaySpeed: 5000,
   });
 
   adjust_slider_size();
